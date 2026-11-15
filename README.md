@@ -2,8 +2,8 @@
 
 El RAG del Avance 2 ahora es un **agente**: el LLM decide *cuándo* consultar la base de conocimientos, *qué herramienta* usar (búsqueda, cálculo, referencia APA o búsqueda web controlada) y el programa ejecuta las tools y le devuelve el resultado.
 
-- **URL pública de la aplicación:** `PENDIENTE: pega aquí tu URL`
-- **Repositorio:** https://github.com/pablincho560/Avance-2-Proyecto
+- **URL pública de la aplicación:** https://desarrollo-de-aplicaciones-con-ia---avance-3-crkjsnhbybryitxp4.streamlit.app/
+- **Repositorio:** https://github.com/pablincho560/Desarrollo-de-aplicaciones-con-IA---Avance-3
 
 ## Qué sale del sistema y qué no
 
