@@ -12,7 +12,11 @@ _client = None
 def get_client() -> genai.Client:
     global _client
     if _client is None:
-        _client = genai.Client(api_key=config.get_api_key())
+        api_key = config.get_api_key()
+        _client = genai.Client(
+            vertexai=api_key.startswith("AQ."),
+            api_key=api_key,
+        )
     return _client
 
 
