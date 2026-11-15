@@ -1,0 +1,23 @@
+{
+  "tag": "agente",
+  "config": {
+    "tipo": "agente",
+    "max_iterations": 5,
+    "max_fragmentos": 4,
+    "chunk_size": 800,
+    "chunk_overlap": 100,
+    "embedding_model": "gemini-embedding-001",
+    "generation_model": "gemini-3.1-flash-lite"
+  },
+  "metricas": {
+    "faithfulness": 0.7589,
+    "answer_relevancy": 0.6095,
+    "context_precision": 1.0,
+    "context_recall": 1.0
+  },
+  "costo": {
+    "llamadas_llm_prom": 1.75,
+    "tokens_prom": 4315.2,
+    "tiempo_prom_s": 5.4
+  }
+}

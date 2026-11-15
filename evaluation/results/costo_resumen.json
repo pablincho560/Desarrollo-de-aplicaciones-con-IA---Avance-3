@@ -1,0 +1,17 @@
+{
+  "Pipeline fijo (Avance 2)":{
+    "Llamadas al LLM (prom.)":1.0,
+    "Tokens por pregunta (prom.)":1205.62,
+    "Tiempo de respuesta, s (prom.)":3.74
+  },
+  "Agente (Avance 3)":{
+    "Llamadas al LLM (prom.)":1.75,
+    "Tokens por pregunta (prom.)":4308.5,
+    "Tiempo de respuesta, s (prom.)":6.58
+  },
+  "Factor (agente\/pipeline)":{
+    "Llamadas al LLM (prom.)":1.75,
+    "Tokens por pregunta (prom.)":3.57,
+    "Tiempo de respuesta, s (prom.)":1.76
+  }
+}
